@@ -1,0 +1,90 @@
+/* components/Navbar.module.css */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #018ded; /* Adjust as needed */
+}
+
+.navbarBrand {
+    display: flex;
+    align-items: center;
+}
+
+.navbarToggler {
+    border: none;
+    background: transparent;
+}
+
+.navbarTogglerIcon {
+    width: 30px;
+    height: 30px;
+    background: url('/public/logo.jpg') no-repeat center center; /* Adjust the path */
+}
+
+.navbarCollapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbarNav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navItem {
+    position: relative;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #000; /* Adjust as needed */
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #d71818; /* Adjust as needed */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+}
+
+.dropdown:hover .dropdownMenu {
+    display: block; /* Show on hover */
+}
+
+.dropdownTitle {
+    font-size: 1.25rem;
+    color: #003366; /* Adjust as needed */
+}
+
+.dropdownItem {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #000; /* Adjust as needed */
+}
+
+.dropdownItem:hover {
+    background-color: #d32222; /* Adjust as needed */
+}
+
+.headerSearchIcon {
+    margin-right: 1rem;
+}
+
+.bookAppointmentBtn {
+    background-color: #007bff; /* Adjust as needed */
+    color: #e11e1e;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
