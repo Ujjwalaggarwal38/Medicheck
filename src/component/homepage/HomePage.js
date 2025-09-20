@@ -140,7 +140,7 @@ export default function HomePage() {
         </div>
 
         {/* Highlights ON the Video (anchored to bottom) */}
-        <div className="absolute bottom-12 w-full max-w-5xl px-6">
+        <div className="absolute bottom-12 w-full max-w-5xl px-6 hidden sm:block">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 text-white text-center">
             {/* Item 1 */}
             <a href="tel:+91 8010800100" className="block">
